@@ -1,0 +1,10 @@
+{
+  "bar-chart": "./src/components/barChart",
+  "gauge-chart": "./src/components/gaugeChart",
+  "line-bar-chart": "./src/components/lineBarChart",
+  "line-chart": "./src/components/lineChart",
+  "map-distribution": "./src/components/mapDistribution",
+  "pie-chart": "./src/components/pieChart",
+  "svg-icon": "./src/components/svgIcon",
+  "index": "./src/index.js"
+}
