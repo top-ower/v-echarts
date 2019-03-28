@@ -4,7 +4,7 @@
 <script>
 import echarts from 'echarts'
 import { getRequest } from '@/utils/index'
-const res = require('/static/china.json')
+let res = null
 export default {
   name: 'MapDistribution',
   props: {
@@ -56,6 +56,9 @@ export default {
   methods: {
     getJson() {
       return new Promise((resolve, reject) => {
+        if (!res) {
+          res = require('/static/china.json')
+        }
         echarts.registerMap('china', res);
         this.chart = echarts.init(this.$el);
         this.initChart();

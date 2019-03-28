@@ -30,8 +30,7 @@ export default {
   }
 }
 </script>
-
-<style rel="stylesheet/scss" lang="scss">
+<style>
 .svg-icon {
   width: 18px;
   height: 18px;
